@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="Title" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/devision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        tools:text="Devision" />
+
+    <TextView
+        android:id="@+id/abbreviation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        tools:text="Abbreviation" />
+
+
+
+</LinearLayout>
